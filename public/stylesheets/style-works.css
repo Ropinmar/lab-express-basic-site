@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+}
+#cover{
+    background-color: rgba(218, 112, 214, 0.25);
+    width: 100%;
+    height: 100%;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 30px 0;
+    color:darkred;
+}
+#acabar-mal {
+    padding: 30px 30px;
+}
+h3{
+    padding: 10px 0 20px 0;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(28, 0, 128);
+}
+img{
+    width: 50%;
+}
+.defender{
+    margin-left: 550px;
+}
+#buttons{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+button{
+    font-size: 15px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+#aprender-fuego{
+    padding: 30px 30px;
+}
